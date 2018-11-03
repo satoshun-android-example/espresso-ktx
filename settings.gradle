@@ -1,5 +1,6 @@
 include ':espresso'
 include ':espresso-web'
 include ':espresso-contrib'
+include ':espresso-intent'
 
 include ':app'

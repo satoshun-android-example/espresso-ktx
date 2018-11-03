@@ -46,4 +46,5 @@ object Libs {
   val espresso = "androidx.test.espresso:espresso-core:3.1.0"
   val espresso_web = "androidx.test.espresso:espresso-web:3.1.0"
   val espresso_contrib = "androidx.test.espresso:espresso-contrib:3.1.0"
+  val espresso_intent = "androidx.test.espresso:espresso-intents:3.1.0"
 }
