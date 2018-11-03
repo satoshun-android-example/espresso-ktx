@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+  compileSdkVersion Vers.compile_sdk
+
+  defaultConfig {
+    minSdkVersion Vers.min_sdk
+    targetSdkVersion Vers.target_sdk
+  }
+}
+
+dependencies {
+  api Libs.kotlin
+  api Libs.espresso
+  api Libs.espresso_web
+
+  testImplementation Libs.junit
+}

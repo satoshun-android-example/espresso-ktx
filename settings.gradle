@@ -1,1 +1,4 @@
-include ':app', ':espresso'
+include ':espresso'
+include ':espresso-web'
+
+include ':app'
