@@ -1,10 +1,9 @@
 object Vers {
   val compile_sdk = 28
-  val min_sdk = 25
+  val min_sdk = 21
   val target_sdk = 28
 
   val kotlin = "1.3.0"
-  val couroutine = "1.0.0"
 }
 
 object Libs {
@@ -13,8 +12,6 @@ object Libs {
   val versions_plugin = "com.github.ben-manes:gradle-versions-plugin:0.20.0"
 
   val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:${Vers.kotlin}"
-  val coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Vers.couroutine}"
-  val ui_coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Vers.couroutine}"
 
   val ktx = "androidx.core:core-ktx:1.0.0"
 
@@ -27,13 +24,6 @@ object Libs {
   val viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
   val livedata = "androidx.lifecycle:lifecycle-livedata:2.0.0"
   val lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:2.0.0"
-
-  val multidex = "androidx.multidex:multidex:2.0.0"
-
-  val rxwebview = "com.github.satoshun.RxWebView:rxwebview-kotlin:2.3.0"
-
-  val rxjava = "io.reactivex.rxjava2:rxjava:2.2.0"
-  val rxandroid = "io.reactivex.rxjava2:rxandroid:2.1.0"
 
   val android_annotation = "androidx.annotation:annotation:1.0.0"
 
