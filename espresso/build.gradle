@@ -14,4 +14,9 @@ dependencies {
   api Libs.espresso
 
   testImplementation Libs.junit
+  testImplementation Libs.test_runner
+  testImplementation Libs.test_rule
+  testImplementation Libs.test_ext_junit
+  testImplementation Libs.test_core
+  testImplementation Libs.robolectric
 }
